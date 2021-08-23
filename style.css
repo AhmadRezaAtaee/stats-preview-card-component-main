@@ -26,8 +26,8 @@ body{
     border-radius: 8px;
     width: 88%;
     max-width: 1010px;
-    height: 410px;
     position: relative;
+    height: 410px;
 }
 .card > section{
     width: 50%;
@@ -92,20 +92,12 @@ body{
     z-index: 999;
     opacity: 0.3;
 }
-
-
-
-
-
-
-
-
 .card::before{
     content: "dont touch";
     width: 100%;
     position: absolute;
-    background-color: rgb(209, 0, 206);
     height: 100%;
+    background-color: rgb(209, 0, 206);
     z-index: 999;
     opacity: 0;
 }
